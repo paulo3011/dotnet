@@ -3,3 +3,11 @@
 ################################################################################
 
 /storage-package/Moreira.Azure.Storage/bin/Debug/netcoreapp3.1
+/storage-package/Moreira.Azure.Storage/obj
+/storage-package/Moreira.FileStorage/bin/Debug/netcoreapp3.1
+/storage-package/Moreira.FileStorage/obj
+/storage-package/storage-packages/.vs/storage-packages/v16
+/storage-package/storage-packages/obj
+/storage-package/.vs/storage-packages/v16
+/storage-package/Moreira.FileStorage.DevTest/bin/Debug/netcoreapp3.1
+/storage-package/Moreira.FileStorage.DevTest/obj

@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Contracts\**" />
+    <Compile Remove="Models\**" />
+    <Compile Remove="Utils\**" />
+    <EmbeddedResource Remove="Contracts\**" />
+    <EmbeddedResource Remove="Models\**" />
+    <EmbeddedResource Remove="Utils\**" />
+    <None Remove="Contracts\**" />
+    <None Remove="Models\**" />
+    <None Remove="Utils\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Moreira.FileStorage\Moreira.FileStorage.csproj" />
+  </ItemGroup>
+
+</Project>
